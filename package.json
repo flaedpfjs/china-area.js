@@ -1,0 +1,13 @@
+{
+    "name": "china-area.js",
+    "description": "China area select javascript library",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node ./build.js ./china-area.js"
+    },
+    "dependencies": {
+        "node-curl": "*",
+        "htmlparser2": "*"
+    }
+}
