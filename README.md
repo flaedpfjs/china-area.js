@@ -59,4 +59,4 @@ china-area.js
 [在线演示](https://blog.kankanan.com/static/china-area.js/demo.html)
 ------------------------------------------------------------
 
-![china-area.js screenshot](https://blog.kankanan.com/static/china-area.js/demo.png)
+![china-area.js screenshot](https://raw.githubusercontent.com/tangxinfa/china-area.js/master/demo.png)
