@@ -1,7 +1,7 @@
 china-area.js
 =============
 
-中国省、市、区下拉列表框三级联动javascript库。
+中国省、市、区下拉列表框三级联动 javascript 库。
 
 数据来源
 ----------
@@ -11,23 +11,36 @@ china-area.js
 ----------
 [省市区三级联动js代码实例](http://www.bkjia.com/jingyan/509522.html)
 
-由于该代码的数据有问题才动了开发china-area.js库的念头，如：
+由于该代码的数据有问题才动了开发 china-area.js 库的念头，如：
 * “市、县级市”中有重复的数据，如（o城关镇）
 * 缺少数据，如（甘肃省，金昌市）
 
-生成china-area.js
------------------
-npm start
+下载 china-area.js
+------------------
 
-将使用最新发布数据生成china-area.js。当前最新为2013年8月31日数据。
+    git clone https://github.com/tangxinfa/china-area.js.git
+
+安装 china-area.js 依赖
+-----------------------
+
+    npm install
+
+要求预先安装 node.js 4.x
+
+生成 china-area.js
+------------------
+
+    npm build
+
+使用最新发布的行政区划代码数据生成 china-area.js，当前最新为 2015 年 9 月 30 日数据。
 
 [使用示例](./demo.html)
--------------------
+-----------------------
     <!DOCTYPE html>
     <html>
       <head>
         <meta charset="utf-8" />
-        <title>china-area.js使用示例</title>
+        <title>china-area.js 使用示例</title>
       </head>
       <body>
         <select id="province">
@@ -42,3 +55,8 @@ npm start
         </script>
       </body>
     </html>
+
+[在线演示](https://blog.kankanan.com/static/china-area.js/demo.html)
+------------------------------------------------------------
+
+![china-area.js screenshot](https://blog.kankanan.com/static/china-area.js/demo.png)
